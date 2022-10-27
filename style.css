@@ -1,0 +1,223 @@
+/****************External CSS*****************/
+
+/* For leaving notes in CSS */
+
+/* 3* /***********************TAG SELECTORS************************/
+
+body {
+  background-color: aquamarine;
+}
+
+/* h1 {
+     color: #66bfbf;
+  } */
+
+* /* Animation in CSS */
+  h1 {
+  color: red;
+  font-size: 25px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+h1:hover {
+  color: #eaf6f6;
+}
+
+h2 {
+  color: brown;
+  font-size: 25px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0.01%;
+    width: 100%;
+  }
+}
+* h3 {
+  color: #ff00ff;
+  font-size: 2rem;
+  /* 2em = 32px or 200% font-size */
+  /* 16px = 100%(font-size) = 1em, px is static while                       em and % are dynamic settings, r keeps your em setting from being           effected by by parent or upstream settings */
+}
+
+h4 {
+  color: #0000ff;
+}
+
+h6 {
+  color: #ffa500;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: silver;
+  border-width: 7px;
+  width: 10%;
+}
+
+img:hover {
+  background-color: #66bfbf;
+} /* Selects any <img /> element when "hovered" */
+
+a {
+  color: green;
+}
+
+/* 4* /********************CLASS SELECTORS***************************/
+/* Use when applying the same style to a group of related items */
+
+.bacon {
+  background-color: green;
+}
+
+.broccoli {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.big {
+  height: 200px;
+}
+
+.p {
+  background-color: red;
+}
+
+.hello {
+  background-color: blue;
+  width: 500px;
+}
+
+.p_1 {
+  background-color: red;
+  width: 500px;
+  display: inline;
+}
+
+.hello_1 {
+  background-color: blue;
+}
+
+.p_2 {
+  background-color: red;
+  width: 200px;
+  display: inline-block;
+}
+
+.top-container {
+  background-color: pink;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+}
+
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+}
+
+.pink {
+  height: 150px;
+  width: 150px;
+  background-color: pink;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  position: relative;
+}
+
+.green {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.purple {
+  height: 100px;
+  width: 150px;
+  background-color: limegreen;
+  position: fixed;
+  top: 0;
+  right: 50px;
+}
+
+.float-right {
+  float: right;
+}
+
+.sitemap {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.sitemap:hover {
+  background: #e3c532;
+  background-image: -webkit-linear-gradient(top, #e3c532, #c2302b);
+  background-image: -moz-linear-gradient(top, #e3c532, #c2302b);
+  background-image: -ms-linear-gradient(top, #e3c532, #c2302b);
+  background-image: -o-linear-gradient(top, #e3c532, #c2302b);
+  background-image: linear-gradient(to bottom, #e3c532, #c2302b);
+  text-decoration: none;
+}
+
+/* 5* /********************ID SELECTORS******************************/
+/* ID Selector 'Name' can only be used once per page, used to apply a specific style to a single element on your web page */
+
+#kitty {
+  color: blue;
+}
+
+#text-decoration {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
